@@ -3,7 +3,8 @@ The Docker container containes play-scala environment
 
 ## Running
 ```
-docker-compose up scala-app
+docker-compose build
+docker-compose run scala-app
 ```
 
 ## Refer
